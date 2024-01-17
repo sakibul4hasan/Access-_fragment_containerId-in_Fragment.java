@@ -3,7 +3,7 @@ If your fragment_container is defined in the main activity layout, and you want 
 
 
 
-- Assuming you have a layout for your main activity (activity_main.xml) with a FrameLayout named fragment_container:
+- Assuming you have a layout for your main activity `(activity_main.xml)` with a `FrameLayout` named `fragment_container`:
 ```bash
 <!-- activity_main.xml -->
 <?xml version="1.0" encoding="utf-8"?>
@@ -26,7 +26,7 @@ If your fragment_container is defined in the main activity layout, and you want 
 
 
 
-- Now, in your fragment, you can reference the fragment_container through the activity:
+- Now, in your `fragment,` you can reference the `fragment_container` through the activity:
 ```bash
 // In your Fragment class
 public class YourFragment extends Fragment {
@@ -53,4 +53,4 @@ public class YourFragment extends Fragment {
 
 
 
-Make sure to replace R.layout.your_fragment_layout with the layout file of your fragment.
+Make sure to replace `R.layout.your_fragment_layout` with the layout file of your fragment.
